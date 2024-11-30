@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./img/icon.svg">
+    <title>Extended Class Grades Table</title>
+</head>
+
+<body>
+    <h1>Extended Class Grades Table</h1>
+
+    <table border="1">
+
+        <thead>
+            <tr bgcolor="#FE4500">
+                <th rowspan="2">Student Name</th>
+                <th colspan="5">Subjects</th>
+            </tr>
+
+            <tr bgcolor="#FF6247">
+                <th>Math</th>
+                <th>Science</th>
+                <th>Languages</th>
+                <th>History</th>
+                <th>Physical Education</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>85</td>
+                <td>90</td>
+                <td rowspan="2">English, Spanish</td>
+                <td>80</td>
+                <td rowspan="3">Pass</td>
+            </tr>
+
+            <tr bgcolor="#FF9F7A">
+                <td>Jane Smith</td>
+                <td>78</td>
+                <td>85</td>
+                <td>70</td>
+            </tr>
+
+            <tr>
+                <td>Sam Brown</td>
+                <td colspan="2">Passed all subjects</td>
+                <td>89</td>
+                <td>Excellent</td>
+            </tr>
+
+            <tr bgcolor="#FFE4B4">
+                <td>Lisa Adams</td>
+                <td>90</td>
+                <td>87</td>
+                <td>English, French</td>
+                <td>92</td>
+                <td>Good</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr bgcolor="#FFD9B9">
+                <th colspan="6">End of Grades</th>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
